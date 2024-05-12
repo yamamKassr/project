@@ -65,6 +65,10 @@ export const Carousel = () => {
 
   return (
     <div className={`carousel ${type} overflow-hidden position-relative`}>
+      <div
+        className="w-100 h-100 position-absolute bg-black top-0"
+        style={{ zIndex: "5", opacity: "0.3" }}
+      ></div>
       <div className="list">
         {carouselItems.map((item, index) => (
           <div
@@ -75,7 +79,7 @@ export const Carousel = () => {
             style={{ inset: "0 0 0 0" }}
           >
             <img className="" src={item.image} />
-            <div className="content">
+            <div className="content ">
               <div className="title">{item.title}</div>
               {/* <div className="topic">{item.topic}</div>/ */}
               <div className="des">{item.description}</div>

@@ -10,6 +10,10 @@ body {
   font-family: "Cardo", serif !important;
 }
 
+.bg-new {
+  background-color: #f6f5f1;
+}
+
 /* React Bootsrap Slider */
 
 .bootstrap-car img {

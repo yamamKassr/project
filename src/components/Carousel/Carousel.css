@@ -19,7 +19,7 @@
   padding-right: 30%;
   box-sizing: border-box;
   color: #fff;
-  text-shadow: 0 5px 10px #0004;
+  z-index: 6;
 }
 .carousel .list .item .author {
   font-weight: bold;
@@ -236,7 +236,7 @@
 /* prev click */
 
 .carousel.prev .list .item:nth-child(2) {
-  z-index: 2;
+  z-index: 6;
 }
 
 .carousel.prev .list .item:nth-child(2) img {
@@ -270,6 +270,7 @@
 .carousel.prev .list .item:nth-child(2) .content .des,
 .carousel.prev .list .item:nth-child(2) .content .buttons {
   animation: contentOut 1.5s linear 1 forwards !important;
+  -webkit-animation: contentOut 1.5s linear 1 forwards !important;
 }
 
 @keyframes contentOut {
