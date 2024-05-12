@@ -1,0 +1,62 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.w-fit-content {
+  width: fit-content !important;
+}
+
+.f-cardo {
+  font-family: "Cardo", serif !important;
+}
+
+/* React Bootsrap Slider */
+
+.bootstrap-car img {
+  height: 100vh;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  left: 0 !important;
+  opacity: 1 !important;
+}
+.prev-icon {
+  position: absolute;
+  left: -20px;
+  background-color: #ff6b9a !important;
+  width: 35px !important;
+  height: 35px !important;
+  display: inline-block !important;
+  padding: 20px;
+  top: 56%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.next-icon {
+  position: absolute;
+  left: -20px;
+  top: 48%;
+  background-color: #ff6b9a !important;
+  width: 35px !important;
+  height: 35px !important;
+  display: inline-block !important;
+  padding: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+  .bootstrap-car img {
+    height: 50vh;
+  }
+  .bootstrap-car a {
+    display: none;
+  }
+}
